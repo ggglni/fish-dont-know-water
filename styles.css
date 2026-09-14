@@ -122,7 +122,7 @@ main { min-height: calc(100vh - 68px); }
 
 .home-inner {
   max-width: 580px;
-  text-align: center;
+  text-align: left;
 }
 
 .epigraph {
@@ -133,6 +133,7 @@ main { min-height: calc(100vh - 68px); }
   font-size: clamp(22px, 3.2vw, 27px);
   line-height: 1.55;
   color: var(--accent);
+  text-align: center;
 }
 
 .epigraph-attr {
