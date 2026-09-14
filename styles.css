@@ -159,8 +159,9 @@ main { min-height: calc(100vh - 68px); }
 }
 
 .cta-button {
-  display: inline-block;
-  margin-top: 4px;
+  display: block;
+  width: fit-content;
+  margin: 4px auto 0;
   padding: 11px 24px;
   border: 1px solid var(--ink);
   background: var(--ink);
