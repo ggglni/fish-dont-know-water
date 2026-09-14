@@ -150,7 +150,11 @@ main { min-height: calc(100vh - 68px); }
   font-size: clamp(17px, 2.2vw, 20px);
   line-height: 1.75;
   color: var(--ink);
-  margin: 0 0 clamp(44px, 7vh, 64px);
+  margin: 0 0 1.1em;
+}
+
+.home-inner p.lede:last-of-type {
+  margin-bottom: clamp(44px, 7vh, 64px);
 }
 
 .cta-button {
